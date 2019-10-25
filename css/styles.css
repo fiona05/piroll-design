@@ -3,3 +3,7 @@ html:root{
    --off-white: rgb(245,245,245);  
 }
 
+.bg-white{
+   background-color: var(--off-white);
+}
+
