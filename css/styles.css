@@ -1,9 +1,21 @@
 html:root{
    --light-grey: rgb(233,233,233);
    --off-white: rgb(245,245,245);  
+   --blue:rgb(16,201,195);
 }
 
 .bg-white{
    background-color: var(--off-white);
 }
-
+.portfolio{
+   width: 100%;
+   height: 100%;
+   margin: auto;
+   padding:0;
+}
+.row-load{
+   background-color:var(--off-white);
+}
+.btn-bg-blue{
+   background-color:var(--blue) ;
+}
