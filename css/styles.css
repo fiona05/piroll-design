@@ -4,8 +4,10 @@ html:root{
    --blue:rgb(16,201,195);
 }
 
-.bg-white{
-   background-color: var(--off-white);
+.bg-header{
+   background-image: url(../media/bg-header.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
 }
 .portfolio{
    width: 100%;
@@ -18,4 +20,20 @@ html:root{
 }
 .btn-bg-blue{
    background-color:var(--blue) ;
+}
+
+.h-activ:hover{
+   color: var(--blue);
+}
+
+.mg-b{
+   margin-bottom: 15%;
+}
+
+.mg-t{
+   margin-top: 15%;
+}
+
+.bg-blue{
+   background-color: var(--blue);
 }
