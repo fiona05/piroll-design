@@ -17,6 +17,10 @@ html:root{
    margin-bottom: 15%;
 }
 
+.mg-t{
+   margin-top: 15%;
+}
+
 .bg-blue{
    background-color: var(--blue);
 }
