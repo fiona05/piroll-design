@@ -1,6 +1,7 @@
 html:root{
    --off-white: rgb(245,245,245);
-   --blue: rgb(16,201,195);  
+   --blue: rgb(16,201,195);
+   --light-grey: rgb(216,216,216); 
 }
 
 .bg-header{
@@ -23,4 +24,8 @@ html:root{
 
 .bg-blue{
    background-color: var(--blue);
+}
+
+.bg-lgt-grey{
+   background-color: var(--light-grey);
 }
