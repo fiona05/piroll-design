@@ -54,3 +54,6 @@ ul {
 .container-client{
    margin-left: 20%;
 }
+.container-fluid-testimonials{
+   background-color: var(--blue);
+}
