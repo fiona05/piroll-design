@@ -56,4 +56,48 @@ ul {
 }
 .container-fluid-testimonials{
    background-color: var(--blue);
+   min-height: 100px;
+}
+.carousel-indicators li{
+   height: 10px;
+   width: 10px;
+   border-radius:50%;
+}
+
+
+
+
+
+
+.footer{
+   min-height: 280px;
+}
+
+.footer-col-1-p1{
+   font-size:23px;
+}
+
+.footer-text{
+   font-size:15px;
+}
+
+.row-footer{
+   padding-top: 7%;
+}
+
+.col-1-p2{
+   margin:0 0 5px;
+}
+
+.col-2-p1{
+   margin:0 0 5px;  
+}
+
+.footer-a{
+   color:var(--white);
+}
+
+.footer-a:hover{
+ color:var(--blue); 
+ text-decoration: none;
 }
