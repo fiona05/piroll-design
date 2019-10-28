@@ -1,9 +1,33 @@
 html:root{
-   --light-grey: rgb(233,233,233);
-   --off-white: rgb(245,245,245);  
-   --blue:rgb(16,201,195);
+   --off-white: rgb(245,245,245);
+   --blue: rgb(16,201,195);
+   --light-grey: rgb(216,216,216);
+   --nav-grey: rgb(51,51,51);
+   --black: rgb(29,29,29);
+   --grey: rgb(120, 120, 120);
 }
 
+body{
+   font-family: 'Montserrat', sans-serif;
+}
+
+/******************************* system text *************************************/
+.f-nunito{
+   font-family: 'Nunito Sans', sans-serif;
+}
+
+.f-nav-grey{
+   color: var(--nav-grey)!important;
+}
+
+.f-black{
+   color: var(--black)!important;
+}
+
+.f-grey{
+   color: var(--grey)!important;
+}
+/******************************* system bg *************************************/
 .bg-header{
    background-image: url(../media/bg-header.jpg);
    background-size: cover;
@@ -37,10 +61,15 @@ html:root{
    background-color: black;
 }
 
-.h-activ:hover{
-   color: var(--blue);
+.bg-blue{
+   background-color: var(--blue);
 }
 
+.bg-lgt-grey{
+   background-color: var(--light-grey);
+}
+
+/******************************* system margin *************************************/
 .mg-b{
    margin-bottom: 15%;
 }
@@ -48,6 +77,17 @@ html:root{
 .mg-t{
    margin-top: 15%;
 }
+/******************************* system link*************************************/
+.h-activ:hover{
+   color: var(--blue)!important;
+}
+
+.btn{
+   font-size: 16px;
+   border-radius: 0;
+   width: 180px;
+}
+
 
 .bg-blue{
    background-color: var(--blue);
