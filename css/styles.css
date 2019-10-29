@@ -78,8 +78,8 @@ body{
 }
 /******************************* work  *************************************/
 .portfolio{
-   width: 480px;
-   height: 400px;
+   width: 200px;
+   height: 230px;
    margin: auto;
    padding:0;
 }
@@ -110,8 +110,10 @@ body{
    font-size:25px;
    margin-top: 40px;
 }
-
+/******************************* need a project *************************************/
 .form-control{
    border-radius: 0;
    border: none;
 }
+
+
