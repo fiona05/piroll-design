@@ -42,6 +42,13 @@ body{
    background-color: var(--blue);
 }
 
+.bg-skills{
+   background-image: url(../media/skills.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   min-height:580px;
+}
+
 .bg-lgt-grey{
    background-color: var(--light-grey);
 }
@@ -104,4 +111,9 @@ body{
    font-size:25px;
    margin-top: 40px;
 }
+
+/***   test nav #navbarNavAltMarkup{
+   min-width: 100%;
+   align-items: center;
+} ***/
 
