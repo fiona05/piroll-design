@@ -36,7 +36,7 @@ body{
 
 .bg-black{
    background-color: black;
-}
+} 
 
 .bg-blue{
    background-color: var(--blue);
@@ -96,7 +96,6 @@ body{
 }
 /******************************* testimonials *************************************/
 .container-fluid-testimonials{
-   background-color: var(--blue);
    min-height: 100px;
 }
 
@@ -112,8 +111,7 @@ body{
    margin-top: 40px;
 }
 
-/***   test nav #navbarNavAltMarkup{
-   min-width: 100%;
-   align-items: center;
-} ***/
-
+.form-control{
+   border-radius: 0;
+   border: none;
+}
