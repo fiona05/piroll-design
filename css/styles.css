@@ -12,9 +12,7 @@ body{
 }
 
 /******************************* system text *************************************/
-.f-nunito{
-   font-family: 'Nunito Sans', sans-serif;
-}
+
 
 .f-nav-grey{
    color: var(--nav-grey)!important;
