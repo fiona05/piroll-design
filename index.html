@@ -408,20 +408,24 @@
         <div class="form-row">
           <div class="col-md-4 col-lg-4 offset-md-2 offset-lg-2 pb-3">
             <!--col?? -->
-            <input type="text" class="form-control f-nunito h5 f-grey" placeholder="Your Name">
+            <input type="text" class="form-control f-nunito h5 f-grey" placeholder="Your Name" id='name' maxlength='20' required>
+            <span class="erreur" id='missname'></span><br />
           </div>
           <div class="form-group col-md-4 col-lg-4">
-            <input type="text" class="form-control f-nunito h5 f-grey" placeholder="Your Email">
+            <input type="text" class="form-control f-nunito h5 f-grey" placeholder="Your Email" id="email" name="f-addr" required>
+            <span class="erreur" id='missemail'></span><br />
           </div>
         </div>
         <div class="form-row">
           <div class="form-group col-md-8 mt-4 col-lg-8 offset-md-2 offset-lg-2">
-            <input type="text" class="form-control f-nunito h5 f-grey" placeholder="Your Title">
+            <input type="text" class="form-control f-nunito h5 f-grey" placeholder="Your Title"id="subject" name="f-subject" required>
+            <span class="erreur" id='misssubject'></span><br />
           </div>
         </div>
         <div class="form-group  p-0 mt-4 mb-0 col-md-8 col-lg-8 offset-md-2 offset-lg-2">
           <textarea class="form-control f-nunito h5 f-grey" id="exampleFormControlTextarea1" rows="7"
-            placeholder="Your Comment"></textarea>
+            placeholder="Your Comment"id="message" name="f-text" required></textarea>
+            <span class="erreur" id='missmessage'></span><br />
 
           <span id='missmessage'></span><br />
         </div>
@@ -437,8 +441,8 @@
     <div class="container-fluid footer bg-black">
       <div class="container pt-3">
         <div class="row row-footer">
-          <div class="col-12 col-md-6 col-lg-3 col-xl-3 p-2">
-            <p class="footer-col-1-p1 text-white h4  font-weight-bold">Piroll Design, Inc</p>
+          <div class="col-12 col-md-6 col-lg-3 col-xl-3 p-1">
+            <p class="text-white h4  font-weight-bold">Piroll Design, Inc</p>
             <p class="footer-text font-weight-normal f-nunito f-grey h5">&copy; 2017 Piroll. All rights reserved.</p>
             <p class="footer-text font-weight-normal f-nunito f-grey h5 ">Designed by robirurk</p>
 
