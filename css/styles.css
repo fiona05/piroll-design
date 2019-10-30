@@ -48,6 +48,7 @@ body{
    background-size: cover;
    background-repeat: no-repeat;
    min-height:580px;
+   width:100%;
 }
 
 .bg-lgt-grey{
@@ -167,5 +168,3 @@ body{
    border-radius: 0;
    border: none;
 }
-
-
