@@ -12,9 +12,10 @@ body{
 }
 
 /******************************* system text *************************************/
+
 .f-nunito{
    font-family: 'Nunito Sans', sans-serif;
-}
+   }
 
 .f-nav-grey{
    color: var(--nav-grey)!important;
@@ -77,17 +78,68 @@ body{
    border-radius: 0;
    width: 180px;
 }
+
+
 /******************************* work  *************************************/
-.portfolio{
-   width: 200px;
-   height: 230px;
-   margin: auto;
-   padding:0;
+
+.portfolio-box-photo{
+   width: 340px;
+   height:300px;
+   background-color: var(--grey-dark);
+   margin-bottom: 15px;
+   background-position: center;
+   background-size: cover;
+   background-blend-mode: luminosity;
 }
-.portfolio:hover{
-   opacity:0.3;
-   cursor: url(../media/oeil.png),pointer;
-} 
+.portfolio-box-photo::before{
+   content:url(../media/oeil.png);
+   width: 100%;
+   height:100%;
+   background-color: rgba(14, 12, 12, 0.918);
+   color: var(--white);
+   font-size:2em;
+   text-align: center;
+   display:none;
+   line-height: 300px;
+   cursor: pointer;
+
+}
+.portfolio-box-photo:hover::before{
+   display: block;
+}
+   .portfolio-box-bg1{
+      background-image: url(../media/on.jpg);
+  
+  }
+  .portfolio-box-bg2{
+      background-image: url(../media/desk.jpg);
+  
+  }
+  .portfolio-box-bg3{
+      background-image: url(../media/woman.jpg);
+  
+  }
+  .portfolio-box-bg4{
+      background-image: url(../media/code.jpg);
+  
+  }
+  
+  .portfolio-box-bg5{
+      background-image: url(../media/apps.jpg);
+  }
+  .portfolio-box-bg6{
+      background-image:url(../media/office.jpg); 
+  }
+  
+  .portfolio-box-bg7{
+      background-image: url(../media/social.jpg);
+  
+  }
+  .portfolio-box-bg8{
+      background-image: url(../media/ap.jpg);
+  }
+
+
 /******************************* client *************************************/ 
 .client{
    width: 100%;
