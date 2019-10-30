@@ -12,7 +12,9 @@ body{
 }
 
 /******************************* system text *************************************/
-
+.f-nunito{
+   font-family: 'Nunito Sans', sans-serif;
+}
 
 .f-nav-grey{
    color: var(--nav-grey)!important;
@@ -45,6 +47,7 @@ body{
    background-size: cover;
    background-repeat: no-repeat;
    min-height:580px;
+   width:100%;
 }
 
 .bg-lgt-grey{
